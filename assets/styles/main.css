@@ -1,0 +1,19 @@
+body{
+    background-color: #568fb9;
+    font-family: Tahoma;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: beige;
+    padding: 4vh;
+}
+
+header>h1{
+    color: #294f6a;
+}
+
+header>h2{
+    color: #4a7ba0
+}
