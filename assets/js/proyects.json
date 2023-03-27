@@ -1,0 +1,52 @@
+[
+    {
+        "id": 5,
+        "puesto": "Analista RRHH Ssr",
+        "empresa": "Binbaires SA",
+        "inicio": "2021-12-06",
+        "fin": "Actualidad",
+        "tareas": "Confección y comunicación de sanciones disciplinarias. Selección de personal de princicipo a fin. Atención al cliente interno. Asistencia en firma de recibo digital. Control de asistencia. Carga de embargos y comunicación al empleado. ",
+        "logros": "",
+        "img": "./assets/images/Job Interview _Two Color.png"
+    },
+    {
+        "id": 4,
+        "puesto": "Asistente de RRHH",
+        "empresa": "Garbarino SA",
+        "inicio": "2021-11-01",
+        "fin": "2021-03-01",
+        "tareas": "Control de ausentismo en TAW2. Carga de variables de liquidación. Atención al cliente interno. Asistencia a juicios laborales de terceros.",
+        "logros": "",
+        "img": "./assets/images/Job Interview _Two Color.png"
+    },
+    {
+        "id": 3,
+        "puesto": "Jefe de Seguridad",
+        "empresa": "Garbarino SA",
+        "inicio": "2021-03-01",
+        "fin": "2010-08-01",
+        "tareas": "Responsable de controles de CCTV y seguridad física del Centro de Distribución. Elevación de informes de cámaras por hechos delictivos. Brindar testimonio en fiscalías.",
+        "logros": "",
+        "img": "./assets/images/watch-over-gd63118393_1280.jpg"
+    },
+    {
+        "id": 2,
+        "puesto": "Administrativo",
+        "empresa": "Garbarino SA",
+        "inicio": "2010-07-01",
+        "fin": "2007-07-01",
+        "tareas": "Control de documentación de terceros por responsabilidad solidaria. Liquidación de sueldos CCT Comercio.",
+        "logros": "",
+        "img": "./assets/images/Office work _Two Color.png"
+    },
+    {
+        "id": 1,
+        "puesto": "Operario",
+        "empresa": "Intouch Sudamerica",
+        "inicio": "2007-07-01",
+        "fin": "2006-03-01",
+        "tareas": "Control de productos en crossdocking. Realización de inventario. Manejo de autoelevador. Carga y descarga de camiones.",
+        "logros": "",
+        "img": "./assets/images/Job Interview _Two Color.png"
+    }
+]
