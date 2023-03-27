@@ -1,59 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
     <title>CV Victor Saide V.2 MH</title>
 </head>
-<body>
-    <!-- perfil -->
-    <header>
-        <h1>Victor Saide</h1>
-        <h2>Frontend Developer Traineee</h2>
 
+<body>
+    <!-- header -->
+    <header>
+        <section class="title">
+            <h1 class="name">Victor Saide</h1>
+            <h2 class="h2-profesion">Frontend Developer</h2>
+        </section>
         <figure>
-            <img src="./assets/images/foto_perfil.jpg" alt="fotoperfil" height="200">
+            <img class="profile-picture" src="./assets/images/005-hombre.png" alt="profile-picture">
         </figure>
-    </header>    
-    
-    <section>
+    </header>
+    <!-- <a href="https://www.flaticon.es/iconos-gratis/estudiante" title="estudiante iconos">Estudiante iconos creados por Freepik - Flaticon</a> -->
+    <!-- nav -->
+    <nav>
+        <a href="#">About me</a>
+        <a href="#">Education</a>
+        <a href="#">Proyects</a>
+        <a href="#">Experience</a>
+        <a href="#">Contact me</a>
+    </nav>
+
+    <main class="main">
 
         <!--sobre-mi -->
-        <article>
-            <h2>Acerca de mí</h2>
-            <p>Soy una persona proactiva, orientada a objetivos y amante de lo disruptivo. Estoy en búsqueda de una organización en donde pueda crecer y colaborar en proyectos desafiantes, dando lo mejor de mí en cada paso.</p>
-        </article>
-        
+        <section>
+            <article class="about-me">
+                <div class="h2-underline">
+                    <h2>About me</h2>
+                </div>
+                <p>Father of two daughters, Bachelor of Labor Relations and passionate about technology. I am a
+                    proactive, curious and challenge-loving person. I possess competencies such as teamwork,
+                    results orientation and empathy.</p>
+                <p></p>
+            </article>
+        </section>
+
         <!--formacion -->
-        <article>
-            <h2>Formación académica</h2>
-            <p>Licenciatura en Relaciones Laborales. UNLZ. Materias aprobadas: 31/32</p>
-        </article>
+        <section>
+            <article>
+                <h2>Education</h2>
+                <figure>
+                    <img class="icons" src="./assets/images/001-gorra.png" alt="education">
+                </figure>
+                <h3>Frontend Developer, Mind Hub - Argentina Programa. 2023.</h3>
+                <h3>Bachelor in Labour Relations, UNLZ. 2023.</h3>
+            </article>
+        </section>
+
+        <!-- proyects -->
+        <section>
+            <article>
+                <h2>Proyects</h2>
+                <figure>
+                    <img class="icons" src="./assets/images/folder-dev.png" alt="experience">
+                </figure>
+            </article>
+            <!--carousel-->
+        </section>
 
         <!-- experiencia-laboral -->
-        <article>
-            <h2>Experiencia laboral</h2>
-            <h3>Analista RRHH. Binbaires SA. 2021 - actualidad</h3>
-            <p><span>Tareas realizadas:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aut perferendis, magnam beatae, eligendi quia vero minima eos, saepe optio vitae libero impedit corrupti ducimus vel dolores amet omnis aliquid.</p>
-            <h3>Asistente RRHH. Garbarino SA. 2021 - 2021</h3>
-            <p><span>Tareas realizadas:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aut perferendis, magnam beatae, eligendi quia vero minima eos, saepe optio vitae libero impedit corrupti ducimus vel dolores amet omnis aliquid.</p>
-            <h3>Jefe de Seguridad. Garbarino SA. 2010 - 2021</h3>
-            <p><span>Tareas realizadas:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aut perferendis, magnam beatae, eligendi quia vero minima eos, saepe optio vitae libero impedit corrupti ducimus vel dolores amet omnis aliquid.</p>
-            <h3>Administrativo. Garbarino SA. 2007 - 2010</h3>
-            <p><span>Tareas realizadas:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aut perferendis, magnam beatae, eligendi quia vero minima eos, saepe optio vitae libero impedit corrupti ducimus vel dolores amet omnis aliquid.</p>
-            <h3>Operario. ITSA Logística Inteligente- 2006 - 2007</h3>
-            <p><span>Tareas realizadas:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aut perferendis, magnam beatae, eligendi quia vero minima eos, saepe optio vitae libero impedit corrupti ducimus vel dolores amet omnis aliquid.</p>
-        </article>
-        
-    </section>
+        <section>
+            <article>
+                <h2>Experience</h2>
+                <figure>
+                    <img class="icons" src="./assets/images/maleta.png" alt="experience">
+                </figure>
+                <div class="cards" id="cards">
+                </div>
+            </article>
+        </section>
 
-    <!-- footer -->   
-    <footer>
-        <a href="#">Inicio</a>
-        <a href="./assets/contact.html">Contacto</a>
-    </footer>
+        <!-- footer -->
+        <footer>
+            <a href="#">Inicio</a>
+            <a href="./assets/contact.html">Contacto</a>
+        </footer>
+        <script src="./assets/js/index.js"></script>
+        <script src="./assets/js/data.json"></script>
 
 </body>
+
 </html>
