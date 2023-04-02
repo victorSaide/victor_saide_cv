@@ -1,7 +1,7 @@
 {
     "jobs": [
         {
-            "id": 5,
+            "id": 4,
             "puesto": "Analista RRHH Ssr",
             "empresa": "Binbaires SA",
             "inicio": "2021-12-06",
@@ -11,7 +11,7 @@
             "img": "./assets/images/Job Interview _Two Color.png"
         },
         {
-            "id": 4,
+            "id": 3,
             "puesto": "Asistente de RRHH",
             "empresa": "Garbarino SA",
             "inicio": "2021-11-01",
@@ -21,7 +21,7 @@
             "img": "./assets/images/Job Interview _Two Color.png"
         },
         {
-            "id": 3,
+            "id": 2,
             "puesto": "Jefe de Seguridad",
             "empresa": "Garbarino SA",
             "inicio": "2021-03-01",
@@ -31,7 +31,7 @@
             "img": "./assets/images/watch-over-gd63118393_1280.jpg"
         },
         {
-            "id": 2,
+            "id": 1,
             "puesto": "Administrativo",
             "empresa": "Garbarino SA",
             "inicio": "2010-07-01",
@@ -44,6 +44,20 @@
     "proyects": [
         {
             "id": 1,
+            "name": "Mighty Ducks",
+            "date": "2023-03-20",
+            "description": "The Mighty Ducks Tasks of the course/bootcamp Frontend Developer Mindhub Argentina Programa.The construction of the page was divided into four segments or tasks, applying basic things to the first branches and an own design to the next two. A responsive design was not applied because up to that moment the theme had not been seen, nor were CSS or JS frameworks used, promising to apply it in the next projects.",
+            "technologies": [
+                "html5",
+                "ccs3",
+                "js",
+                "github"
+            ],
+            "linkRepo": "https://github.com/victorSaide/Mighty-Ducks",
+            "image": "./assets/images/proyect1.png"
+        },
+        {
+            "id": 2,
             "name": "Amazing Events",
             "date": "2023-02-28",
             "description": "Dynamic website using HTML, CSS, JS and Bootstrap as a framework, bringing the information from an API.",
@@ -56,20 +70,6 @@
             ],
             "linkRepo": "https://github.com/victorSaide/saide-victor-amazing-events",
             "image": "./assets/images/proyect2.png"
-        },
-        {
-            "id": 2,
-            "name": "Mighty Ducks",
-            "date": "2023-03-20",
-            "description": "The Mighty Ducks Tasks of the course/bootcamp Frontend Developer Mindhub Argentina Programa.The construction of the page was divided into four segments or tasks, applying basic things to the first branches and an own design to the next two. A responsive design was not applied because up to that moment the theme had not been seen, nor were CSS or JS frameworks used, promising to apply it in the next projects.",
-            "technologies": [
-                "html5",
-                "ccs3",
-                "js",
-                "github"
-            ],
-            "linkRepo": "https://github.com/victorSaide/Mighty-Ducks",
-            "image": "./assets/images/proyect1.png"
         }
     ]
 }

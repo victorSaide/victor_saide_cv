@@ -50,7 +50,7 @@ function showPortfolio(array, container) {
                     <span class="techs">${element.technologies[2]}</span>
                     <span class="techs">${element.technologies[3]}</span>
                 </div>
-                <a class="a-details" href=${element.linkRepo} target="_blank">Details</a>
+                <a class="a-details" href=${element.linkRepo} target="_blank">Repository</a>
                 <p>${element.description}</p>
                 `
         fragmentSnd.appendChild(div);

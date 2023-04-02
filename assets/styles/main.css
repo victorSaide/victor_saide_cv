@@ -24,6 +24,7 @@ main {
         align-items: center;
         text-align: center;
         padding: 1vh;
+        padding-top: 3vh;
         background-image: url(../images/bg-header.jpg);
     }
 }
@@ -194,6 +195,7 @@ p {
 
 .a-details {
     color: #20227d;
+    padding: 1vh;
 }
 
 .a-details:hover {
@@ -228,30 +230,104 @@ section {
 }
 
 footer {
-    background-color: #061733;
+    background-color: #171868;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     height: 20vh;
     margin-bottom: 0;
     padding: 2vh;
-}
-
-footer a img {
-    padding:2vh;
-    height: auto;
 }
 
 .footer-text {
     color: aliceblue;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 .a-footer {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    width: 9vh;
+    background-color: aliceblue;
+    background-color: white;
+    opacity: 1.0;
+    border-radius: 20%;
 }
 
 .a-footer:hover {
-    height: 100px;
+    background-color: aliceblue;
+    opacity: 0.8;
+}
+
+.a-footer img {
+    height: 7vh;
+}
+
+.footer-text-right {
+    font-weight: bold;
+    color: aliceblue;
+}
+
+@media (max-width: 900px) {
+
+    .cards,
+    .proyectsContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-wrap: wrap;
+        gap: 2vh;
+        margin: 2vh;
+    }
+
+    .jobs,
+    .proyects {
+        display: flex;
+        flex-direction: column;
+        padding: 2vh;
+    }
+}
+
+@media (max-width: 700px) {
+    .icons {
+        height: 6vh;
+    }
+
+    .main-text {
+        padding: 1vh;
+
+    }
+
+    .jobs-img {
+        width: 90%;
+        padding: 1vh;
+    }
+
+    .a-nav {
+        display: none;
+    }
+
+    .h2-article {
+        padding: 1vh;
+    }
+
+    img {
+        padding: 0;
+
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-text-right {
+        display: flex;
+        font-weight: bold;
+        color: aliceblue;
+    }
 }
