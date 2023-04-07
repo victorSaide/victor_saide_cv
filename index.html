@@ -11,6 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
     <title>CV Victor Saide V.2 MH</title>
 </head>
 
@@ -25,104 +26,112 @@
             <img class="profile-picture" src="./assets/images/profile-pic.png" alt="profile-picture">
         </figure>
     </header>
-    <!-- <a href="https://www.flaticon.es/iconos-gratis/estudiante" title="estudiante iconos">Estudiante iconos creados por Freepik - Flaticon</a> -->
-    <!-- nav -->
+    <!-- nav big screen-->
     <nav>
-        <a class="a-nav" href="#">About me</a>
-        <a class="a-nav" href="#">Education</a>
-        <a class="a-nav" href="#">Proyects</a>
-        <a class="a-nav" href="#">Experience</a>
-        <a class="a-nav" href="#">Contact me</a>
+        <a class="a-nav" href="#about-me">About me</a>
+        <a class="a-nav" href="#education">Education</a>
+        <a class="a-nav" href="#proyects">Proyects</a>
+        <a class="a-nav" href="#experience">Experience</a>
+        <a class="a-nav" href="https://linktr.ee/victor.saide" target="_blank" rel="noopener">Contact me</a>
     </nav>
+    <!-- nav mobile screen-->
+    <details>
+        <!-- <img src="./assets/images/icons" alt="menu-icon"> -->
+        <summary>
+            <img class="menu-xs" src="./assets/images/menu-hamburguesa.png" alt="">
+        </summary>
+        <a class="a-nav-xs" href="#about-me">About me</a>
+        <a class="a-nav-xs" href="#education">Education</a>
+        <a class="a-nav-xs" href="#proyects">Proyects</a>
+        <a class="a-nav-xs" href="#experience">Experience</a>
+        <a class="a-nav-xs" href="https://linktr.ee/victor.saide" target="_blank" rel="noopener">Contact me</a>
+    </details>
+
 
     <main class="main">
-
-        <!--sobre-mi -->
-        <section>
-            <article>
-                <div class="h2-article about">
-                    <div class="h2-about">
-                        <h2>About me</h2>
-                        <figure>
-                            <img class="icons" src="./assets/images/005-hombre.png" alt="about me">
-                        </figure>
-                    </div>
-                </div>
-                <p class="main-text">Father of two daughters, Bachelor of Labor Relations and passionate about
-                    technology. I am a
-                    proactive, curious and challenge-loving person. I possess competencies such as teamwork,
-                    results orientation and empathy.</p>
-                <p class="main-text">Why did I start studying programming?</p>
-                <p class="main-text">I started studying programming because I wanted to automate my investment
-                    portfolio, and the deeper I went, the more passionate I became. I have found that I love the
-                    potential to create beautiful and useful things through these technological tools, which seem to
-                    have no end to their potential.</p>
-
-            </article>
-        </section>
-
-        <!--formacion -->
-        <section>
-            <article>
-                <div class="h2-article">
-                    <h2>Education</h2>
+        <!-- about me -->
+        <div id="about-me">
+            <div class="h2-article about">
+                <div class="h2-about">
+                    <h2>About me</h2>
                     <figure>
-                        <img class="icons" src="./assets/images/001-gorra.png" alt="education">
+                        <img class="icons" src="./assets/images/005-hombre.png" alt="about me">
                     </figure>
                 </div>
-                <h3 class="main-text">Frontend Developer, Mind Hub - Argentina Programa. 2023.</h3>
-                <figure class="education-certification">
-                    <a class href="https://www.credly.com/badges/3cdecd3d-7ff3-458e-838e-1c2fe4360a9f/linked_in_profile"
-                        target="blank">
-                        <img src="./assets/images/bootcamp-desarrollador-web-front-end.1.png" alt="education">
-                    </a>
-                </figure>
-                <h3 class="main-text">Bachelor in Labour Relations, UNLZ. 2023.</h3>
-            </article>
-        </section>
+            </div>
+            <p class="main-text">Father of two daughters, Bachelor of Labor Relations and passionate about
+                technology. I am a
+                proactive, curious and challenge-loving person. I possess competencies such as teamwork,
+                results orientation and empathy.</p>
+            <p class="main-text">Why did I start studying programming?</p>
+            <p class="main-text">I started studying programming because I wanted to automate my investment
+                portfolio, and the deeper I went, the more passionate I became. I have found that I love the
+                potential to create beautiful and useful things through these technological tools, which seem to
+                have no end to their potential.</p>
+        </div>
+
+        <!-- education -->
+        <div class="h2-article">
+            <h2>Education</h2>
+            <figure>
+                <img class="icons" src="./assets/images/001-gorra.png" alt="education">
+            </figure>
+        </div>
+        <div class="education-row">
+            <h3 class="main-text">Frontend Developer, Mind Hub - Argentina Programa. 2023.</h3>
+            <figure class="education-certification">
+                <a class href="https://www.credly.com/badges/3cdecd3d-7ff3-458e-838e-1c2fe4360a9f/linked_in_profile"
+                    target="blank">
+                    <img src="./assets/images/bootcamp-desarrollador-web-front-end.1.png" alt="education">
+                </a>
+            </figure>
+            <h3 class="main-text">Bachelor in Labour Relations, UNLZ. 2023.</h3>
+            <figure class="education-certification">
+                <img class="logo-unlz" src="./assets/images/logo_unlz.png" alt="education">
+            </figure>
+        </div>
 
         <!-- proyects -->
-        <section>
-            <article>
-                <div class="h2-article">
-                    <h2>The Latest Proyects</h2>
-                    <figure>
-                        <img class="icons" src="./assets/images/folder-dev.png" alt="proyects">
-                    </figure>
-                </div>
-            </article>
+        <div id="proyects">
+            <div class="h2-article">
+                <h2>The Latest Proyects</h2>
+                <figure>
+                    <img class="icons" src="./assets/images/folder-dev.png" alt="proyects">
+                </figure>
+            </div>
             <div class="proyectsContainer" id="proyectsContainer">
             </div>
-        </section>
+        </div>
         <!-- experiencia-laboral -->
-        <section>
-            <article>
+        <div id="experience">
+            <div>
                 <div class="h2-article">
                     <h2>Experience</h2>
                     <figure>
                         <img class="icons" src="./assets/images/maleta.png" alt="experience">
                     </figure>
                 </div>
-            </article>
+            </div>
             <div class="cards" id="cards">
             </div>
-        </section>
+        </div>
+    </main>
 
-        <!-- footer -->
-        <footer>
-            <div class="footer-text-right">
-                <p class="p-footer">Victor Saide</p>
-                <p class="p-footer">Frontend Developer</p>
-            </div>
-            <div class="footer-text">
-                <p>Made with ❤ by Victor Saide©</p>
-            </div>
-            <a href="https://www.linkedin.com/in/vsaide/" class="a-footer" title="linkedin">
-                <img src="./assets/images/github (1).png" alt="github" />
-            </a>
-        </footer>
-        <script src="./assets/js/index.js"></script>
-        <script src="./assets/js/data.json"></script>
+    <!-- footer -->
+    <footer>
+        <div class="footer-text-right">
+            <p class="p-footer">Victor Saide</p>
+            <p class="p-footer">Frontend Developer</p>
+        </div>
+        <div class="footer-text">
+            <p>Made with ❤ by Victor Saide©</p>
+        </div>
+        <a href="https://github.com/victorSaide" target="_blank" class="a-footer" title="github" rel="noopener">
+            <img src="./assets/images/github.png" alt="github">
+        </a>
+    </footer>
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/data.json"></script>
 </body>
 
 </html>
