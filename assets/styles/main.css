@@ -16,6 +16,13 @@ main {
     background-color: rgba(245, 245, 236, 0.57);
 }
 
+header {
+    background-image: url('https://cdn.pixabay.com/photo/2015/07/05/08/27/background-831999_1280.png');
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+}
+
 /*si la pantalla tiene de 0 a 600px hacer esto; hasta un max de 600 desde 0*/
 @media (max-width: 700px) {
     header {
@@ -25,7 +32,6 @@ main {
         text-align: center;
         padding: 1vh;
         padding-top: 3vh;
-        background-image: url(../images/bg-header.jpg);
     }
 }
 
@@ -36,7 +42,9 @@ main {
         align-items: center;
         justify-content: space-around;
         height: 80vh;
-        background-image: url(../images/bg-header.jpg);
+    }
+    .menu-xs,details {
+        display: none;
     }
 }
 
@@ -100,6 +108,10 @@ img {
     background-color: white;
     border-radius: 5%;
     padding: 2vh;
+}
+
+.logo-unlz {
+    height: 10vh;
 }
 
 nav {
@@ -299,7 +311,6 @@ footer {
 
     .main-text {
         padding: 1vh;
-
     }
 
     .jobs-img {
@@ -307,7 +318,7 @@ footer {
         padding: 1vh;
     }
 
-    .a-nav {
+    nav {
         display: none;
     }
 
@@ -317,7 +328,6 @@ footer {
 
     img {
         padding: 0;
-
     }
 
     footer {
@@ -330,4 +340,31 @@ footer {
         font-weight: bold;
         color: aliceblue;
     }
+}
+
+.a-nav-xs {
+    display: flex;
+    justify-content: center;
+    padding: 1vh;
+    padding-right: 3vh;
+    text-decoration: none;
+    background-color:#20227d;
+    color: aliceblue;
+    font-weight: bold;
+}
+.a-nav-xs:hover {
+    color: #0e3473;
+    background-color: #ffff;    
+}
+
+summary{
+    background-color: #20227d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 2vh;
+}
+
+.menu-xs {
+    height: 5vh;
 }
