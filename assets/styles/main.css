@@ -17,7 +17,7 @@ main {
 }
 
 header {
-    background-image: url('https://cdn.pixabay.com/photo/2015/07/05/08/27/background-831999_1280.png');
+    background-image: url(../images/bg-gif.gif);
     object-fit: contain;
     background-size: cover;
     background-position: center;
@@ -32,6 +32,7 @@ header {
         text-align: center;
         padding: 1vh;
         padding-top: 3vh;
+        background-image: url(../images/bg-gif-xs.gif);
     }
 }
 
@@ -44,6 +45,9 @@ header {
         height: 80vh;
     }
     .menu-xs,details {
+        display: none;
+    }
+    .h2-profesion, .name {
         display: none;
     }
 }
@@ -367,4 +371,36 @@ summary{
 
 .menu-xs {
     height: 5vh;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    padding: 4vh;
+    gap: 3vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.h3-skills-title {
+    display: flex;
+    align-items: center;
+}
+
+.hard-skills-list, .soft-skills-list {
+    text-indent: 4vh;
+}
+
+.hard-skills-list li{
+    list-style: none;
+    background-image: url("../images/hard-skillspng.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.soft-skills-list li{
+    list-style: none;
+    background-image: url("../images/soft-skills.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
